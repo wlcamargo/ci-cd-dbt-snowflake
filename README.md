@@ -10,6 +10,9 @@ https://github.com/wlcamargo/ci-cd-dbt-snowflake
 ## Arquitetura
 ![image](assets/ci-cd-dbt-snowflake.png)
 
+## Vídeo Tutorial
+Link: https://youtu.be/frqwfqmhorU
+
 ### Fluxo da pipeline
 Ao criar uma branch e abrir uma Pull Request (PR), a pipeline de CI é acionada automaticamente para executar os testes. A PR só será aberta caso todos os testes sejam bem-sucedidos. Após a aprovação da PR, a pipeline de CD é responsável por implantar o projeto no ambiente de produção.
 
